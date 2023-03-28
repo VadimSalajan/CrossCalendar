@@ -1211,7 +1211,7 @@ namespace CrossCalendar.Data
         }
 
 
-        public int event00CornerRadius = 0;
+        public int event00CornerRadius = 22;
 
         public int Event00CornerRadius
         {
@@ -1219,7 +1219,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event00CornerRadius, value); }
         }
 
-        public int event01CornerRadius = 0;
+        public int event01CornerRadius = 22;
 
         public int Event01CornerRadius
         {
@@ -1227,7 +1227,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event01CornerRadius, value); }
         }
 
-        public int event02CornerRadius = 0;
+        public int event02CornerRadius = 22;
 
         public int Event02CornerRadius
         {
@@ -1235,7 +1235,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event02CornerRadius, value); }
         }
 
-        public int event03CornerRadius = 0;
+        public int event03CornerRadius = 22;
 
         public int Event03CornerRadius
         {
@@ -1243,7 +1243,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event03CornerRadius, value); }
         }
 
-        public int event04CornerRadius = 0;
+        public int event04CornerRadius = 22;
 
         public int Event04CornerRadius
         {
@@ -1251,7 +1251,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event04CornerRadius, value); }
         }
 
-        public int event05CornerRadius = 0;
+        public int event05CornerRadius = 22;
 
         public int Event05CornerRadius
         {
@@ -1259,7 +1259,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event05CornerRadius, value); }
         }
 
-        public int event06CornerRadius = 0;
+        public int event06CornerRadius = 22;
 
         public int Event06CornerRadius
         {
@@ -1267,7 +1267,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event06CornerRadius, value); }
         }
 
-        public int event10CornerRadius = 0;
+        public int event10CornerRadius = 22;
 
         public int Event10CornerRadius
         {
@@ -1275,7 +1275,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event10CornerRadius, value); }
         }
 
-        public int event11CornerRadius = 0;
+        public int event11CornerRadius = 22;
 
         public int Event11CornerRadius
         {
@@ -1283,7 +1283,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event11CornerRadius, value); }
         }
 
-        public int event12CornerRadius = 0;
+        public int event12CornerRadius = 22;
 
         public int Event12CornerRadius
         {
@@ -1291,7 +1291,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event12CornerRadius, value); }
         }
 
-        public int event13CornerRadius = 0;
+        public int event13CornerRadius = 22;
 
         public int Event13CornerRadius
         {
@@ -1299,7 +1299,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event13CornerRadius, value); }
         }
 
-        public int event14CornerRadius = 0;
+        public int event14CornerRadius = 22;
 
         public int Event14CornerRadius
         {
@@ -1307,7 +1307,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event14CornerRadius, value); }
         }
 
-        public int event15CornerRadius = 0;
+        public int event15CornerRadius = 22;
 
         public int Event15CornerRadius
         {
@@ -1315,7 +1315,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event15CornerRadius, value); }
         }
 
-        public int event16CornerRadius = 0;
+        public int event16CornerRadius = 22;
 
         public int Event16CornerRadius
         {
@@ -1323,7 +1323,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event16CornerRadius, value); }
         }
 
-        public int event20CornerRadius = 0;
+        public int event20CornerRadius = 22;
 
         public int Event20CornerRadius
         {
@@ -1331,7 +1331,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event20CornerRadius, value); }
         }
 
-        public int event21CornerRadius = 0;
+        public int event21CornerRadius = 22;
 
         public int Event21CornerRadius
         {
@@ -1339,7 +1339,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event21CornerRadius, value); }
         }
 
-        public int event22CornerRadius = 0;
+        public int event22CornerRadius = 22;
 
         public int Event22CornerRadius
         {
@@ -1347,7 +1347,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event22CornerRadius, value); }
         }
 
-        public int event23CornerRadius = 0;
+        public int event23CornerRadius = 22;
 
         public int Event23CornerRadius
         {
@@ -1355,7 +1355,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event23CornerRadius, value); }
         }
 
-        public int event24CornerRadius = 0;
+        public int event24CornerRadius = 22;
 
         public int Event24CornerRadius
         {
@@ -1363,7 +1363,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event24CornerRadius, value); }
         }
 
-        public int event25CornerRadius = 0;
+        public int event25CornerRadius = 22;
 
         public int Event25CornerRadius
         {
@@ -1371,7 +1371,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event25CornerRadius, value); }
         }
 
-        public int event26CornerRadius = 0;
+        public int event26CornerRadius = 22;
 
         public int Event26CornerRadius
         {
@@ -1379,7 +1379,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event26CornerRadius, value); }
         }
 
-        public int event30CornerRadius = 0;
+        public int event30CornerRadius = 22;
 
         public int Event30CornerRadius
         {
@@ -1387,7 +1387,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event30CornerRadius, value); }
         }
 
-        public int event31CornerRadius = 0;
+        public int event31CornerRadius = 22;
 
         public int Event31CornerRadius
         {
@@ -1395,7 +1395,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event31CornerRadius, value); }
         }
 
-        public int event32CornerRadius = 0;
+        public int event32CornerRadius = 22;
 
         public int Event32CornerRadius
         {
@@ -1403,7 +1403,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event32CornerRadius, value); }
         }
 
-        public int event33CornerRadius = 0;
+        public int event33CornerRadius = 22;
 
         public int Event33CornerRadius
         {
@@ -1411,7 +1411,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event33CornerRadius, value); }
         }
 
-        public int event34CornerRadius = 0;
+        public int event34CornerRadius = 22;
 
         public int Event34CornerRadius
         {
@@ -1419,7 +1419,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event34CornerRadius, value); }
         }
 
-        public int event35CornerRadius = 0;
+        public int event35CornerRadius = 22;
 
         public int Event35CornerRadius
         {
@@ -1427,7 +1427,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event35CornerRadius, value); }
         }
 
-        public int event36CornerRadius = 0;
+        public int event36CornerRadius = 22;
 
         public int Event36CornerRadius
         {
@@ -1435,7 +1435,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event36CornerRadius, value); }
         }
 
-        public int event40CornerRadius = 0;
+        public int event40CornerRadius = 22;
 
         public int Event40CornerRadius
         {
@@ -1443,7 +1443,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event40CornerRadius, value); }
         }
 
-        public int event41CornerRadius = 0;
+        public int event41CornerRadius = 22;
 
         public int Event41CornerRadius
         {
@@ -1451,7 +1451,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event41CornerRadius, value); }
         }
 
-        public int event42CornerRadius = 0;
+        public int event42CornerRadius = 22;
 
         public int Event42CornerRadius
         {
@@ -1459,7 +1459,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event42CornerRadius, value); }
         }
 
-        public int event43CornerRadius = 0;
+        public int event43CornerRadius = 22;
 
         public int Event43CornerRadius
         {
@@ -1467,7 +1467,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event43CornerRadius, value); }
         }
 
-        public int event44CornerRadius = 0;
+        public int event44CornerRadius = 22;
 
         public int Event44CornerRadius
         {
@@ -1475,7 +1475,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event44CornerRadius, value); }
         }
 
-        public int event45CornerRadius = 0;
+        public int event45CornerRadius = 22;
 
         public int Event45CornerRadius
         {
@@ -1483,7 +1483,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref event45CornerRadius, value); }
         }
 
-        public int event46CornerRadius = 0;
+        public int event46CornerRadius = 22;
 
         public int Event46CornerRadius
         {
