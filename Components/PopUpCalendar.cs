@@ -10,7 +10,7 @@ namespace CrossCalendar.Components
     public class PopUpCalendar: ContentPage
     {
         private ScrollView screen;
-        public Path pathClose;
+        public Path pathClose; // Set Color Stroke and Fill
 
         public PopUpCalendar()
         {
