@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Calendar</Title>
+    <Authors>Salajan_Vadim</Authors>
+    <Company />
+    <Description>Calendar Xamarin Forms</Description>
+    <PackageTags>Calendar Xamarin Forms</PackageTags>
+    <AssemblyVersion>1.1</AssemblyVersion>
+    <FileVersion>1.2</FileVersion>
+    <ErrorReport>queue</ErrorReport>
+    <Version>1.0.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2125" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Calendar.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
