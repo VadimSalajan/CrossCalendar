@@ -33,7 +33,8 @@ namespace CrossCalendar.Components
             var calendar = new CrossCalendar.Calendar
             {
                 Padding = new Thickness(30, 10, 30, 30),
-                Margin = 3
+                Margin = 3,
+                CalIsInPopUp = true,
             };
 
             var btnClose = new Button
