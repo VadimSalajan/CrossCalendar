@@ -11,6 +11,7 @@ namespace CrossCalendar.Components
     {
         private ScrollView screen;
         public Path pathClose; // Set Color Stroke and Fill
+        public Calendar calendar;
 
         public PopUpCalendar()
         {
@@ -30,7 +31,7 @@ namespace CrossCalendar.Components
                 HorizontalOptions = LayoutOptions.End,
             };
 
-            var calendar = new CrossCalendar.Calendar
+            calendar = new CrossCalendar.Calendar
             {
                 Padding = new Thickness(30, 10, 30, 30),
                 Margin = 3,

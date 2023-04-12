@@ -28,9 +28,9 @@ namespace CrossCalendar.Services
         public Color ColorTextBtn { get; set; }
         public Color SelectedColorTextBtn { get; set; }
         public Color UnSelectedColorTextBtn { get; set; }
-        public Graphic(ContextCalendar _context)
+        public Graphic(ContextCalendar context)
         {
-            _context = _context;
+            _context = context;
         }
         public void ChangeDate(DateTime date, List<DateCalendar> dates)
         {
