@@ -19,6 +19,8 @@ namespace CrossCalendar
         public bool ShowOnlyListDates;
         public bool CalIsInPopUp;
         public IGraphic _graphic;
+        public delegate void CalendarDelegate(object sender, EventArgs e);
+        public event CalendarDelegate ClickedDate;
 
         public Calendar()
         {
@@ -79,6 +81,7 @@ namespace CrossCalendar
                 if (CalIsInPopUp) await Navigation.PopModalAsync();
             }
             Context.DateText = SelectedDate;
+            ClickedDate.Invoke(sender, e);
         }
     }
 }

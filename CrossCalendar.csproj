@@ -12,7 +12,7 @@
     <AssemblyVersion>1.1</AssemblyVersion>
     <FileVersion>1.2</FileVersion>
     <ErrorReport>queue</ErrorReport>
-    <Version>1.0.6</Version>
+    <Version>1.0.7</Version>
     <RepositoryUrl>https://github.com/VadimSalajan/CrossCalendar</RepositoryUrl>
   </PropertyGroup>
 
