@@ -63,6 +63,7 @@ namespace CrossCalendar
 
         private async void ButtonSetDate_Clicked(object sender, EventArgs e)
         {
+            ClickedDate.Invoke(sender, e);
             var btn = sender as Button;
             SelectedDate = DateTime.Parse(btn.AutomationId);
             if (ShowOnlyListDates)
@@ -81,7 +82,6 @@ namespace CrossCalendar
                 if (CalIsInPopUp) await Navigation.PopModalAsync();
             }
             Context.DateText = SelectedDate;
-            ClickedDate.Invoke(sender, e);
         }
     }
 }
