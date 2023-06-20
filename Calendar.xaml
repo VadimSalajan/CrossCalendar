@@ -10,7 +10,7 @@
     <Frame.BindingContext>
         <data:ContextCalendar x:Name="Context"/>
     </Frame.BindingContext>
-    <Grid RowDefinitions="148,44,44,44,44,44,44"
+    <Grid RowDefinitions="148,44,44,44,44,44,44,44"
           ColumnDefinitions="44,44,44,44,44,44,44"
           BackgroundColor="Transparent"
           ColumnSpacing="0"
@@ -64,64 +64,73 @@
                     WidthRequest="48"
                     TranslationX="60"
                     />
-
-        <Label Grid.Row="1" Grid.Column="0"
+        <Label x:Name="titleLabel" 
+               x:FieldModifier="public"
+               Grid.Row="1" 
+               Grid.ColumnSpan="7"
+               TextColor="Black"
+               FontSize="18"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Text="{Binding Title}"
+               />
+        <Label Grid.Row="2" Grid.Column="0"
                Text="{Binding Sunday}"
                FontSize="18"
                TextColor="Black"
                HorizontalTextAlignment="Center"
                />
-        <Label Grid.Row="1" Grid.Column="1"
+        <Label Grid.Row="2" Grid.Column="1"
                Text="{Binding Monday}"
                FontSize="18"
                TextColor="Black"
                HorizontalTextAlignment="Center"
                />
-        <Label Grid.Row="1" Grid.Column="2"
+        <Label Grid.Row="2" Grid.Column="2"
                Text="{Binding Tuesday}"
                FontSize="18"
                TextColor="Black"
                HorizontalTextAlignment="Center"
                />
-        <Label Grid.Row="1" Grid.Column="3"
+        <Label Grid.Row="2" Grid.Column="3"
                Text="{Binding Wednesday}"
                FontSize="18"
                TextColor="Black"
                HorizontalTextAlignment="Center"
                />
-        <Label Grid.Row="1" Grid.Column="4"
+        <Label Grid.Row="2" Grid.Column="4"
                Text="{Binding Thursday}"
                FontSize="18"
                TextColor="Black"
                HorizontalTextAlignment="Center"
                />
-        <Label Grid.Row="1" Grid.Column="5"
+        <Label Grid.Row="2" Grid.Column="5"
                Text="{Binding Friday}"
                FontSize="18"
                TextColor="Black"
                HorizontalTextAlignment="Center"
                />
-        <Label Grid.Row="1" 
+        <Label Grid.Row="2" 
                Grid.Column="6"
                Text="{Binding Saturday}"
                FontSize="18"
                TextColor="Black"
                HorizontalTextAlignment="Center"
                />
-        <Label Grid.Row="1" Grid.Column="0"
+        <Label Grid.Row="2" Grid.Column="0"
                Text="{Binding Sunday}"
                FontSize="18"
                TextColor="Black"
                HorizontalTextAlignment="Center"
                />
-        <BoxView Grid.Row="1" Grid.ColumnSpan="7"
+        <BoxView Grid.Row="2" Grid.ColumnSpan="7"
                  Color="Gray"
                  HeightRequest="1"
                  TranslationY="10"
                  VerticalOptions="Center"
                />
 
-        <Button Grid.Row="2" Text="{Binding Event00Text}"
+        <Button Grid.Row="3" Text="{Binding Event00Text}"
                     AutomationId="{Binding Event00AutomationId}"
                     TextColor="{Binding Event00TextColor}"
                     BackgroundColor="{Binding Event00BackgroundColor}"
@@ -130,7 +139,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="2" Grid.Column="1" Text="{Binding Event01Text}"
+        <Button Grid.Row="3" Grid.Column="1" Text="{Binding Event01Text}"
                     AutomationId="{Binding Event01AutomationId}"
                     TextColor="{Binding Event01TextColor}"
                     BackgroundColor="{Binding Event01BackgroundColor}"
@@ -139,7 +148,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="2" Grid.Column="2" Text="{Binding Event02Text}"
+        <Button Grid.Row="3" Grid.Column="2" Text="{Binding Event02Text}"
                     AutomationId="{Binding Event02AutomationId}"
                     TextColor="{Binding Event02TextColor}"
                     BackgroundColor="{Binding Event02BackgroundColor}"
@@ -148,7 +157,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="2" Grid.Column="3" Text="{Binding Event03Text}"
+        <Button Grid.Row="3" Grid.Column="3" Text="{Binding Event03Text}"
                     AutomationId="{Binding Event03AutomationId}"
                     TextColor="{Binding Event03TextColor}"
                     BackgroundColor="{Binding Event03BackgroundColor}"
@@ -157,7 +166,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="2" Grid.Column="4" Text="{Binding Event04Text}"
+        <Button Grid.Row="3" Grid.Column="4" Text="{Binding Event04Text}"
                     AutomationId="{Binding Event04AutomationId}"
                     TextColor="{Binding Event04TextColor}"
                     BackgroundColor="{Binding Event04BackgroundColor}"
@@ -166,7 +175,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="2" Grid.Column="5" Text="{Binding Event05Text}"
+        <Button Grid.Row="3" Grid.Column="5" Text="{Binding Event05Text}"
                     AutomationId="{Binding Event05AutomationId}"
                     TextColor="{Binding Event05TextColor}"
                     BackgroundColor="{Binding Event05BackgroundColor}"
@@ -175,7 +184,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="2" Grid.Column="6" Text="{Binding Event06Text}"
+        <Button Grid.Row="3" Grid.Column="6" Text="{Binding Event06Text}"
                     AutomationId="{Binding Event06AutomationId}"
                     TextColor="{Binding Event06TextColor}"
                     BackgroundColor="{Binding Event06BackgroundColor}"
@@ -184,7 +193,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="3" Text="{Binding Event10Text}"
+        <Button Grid.Row="4" Text="{Binding Event10Text}"
                     AutomationId="{Binding Event10AutomationId}"
                     TextColor="{Binding Event10TextColor}"
                     BackgroundColor="{Binding Event10BackgroundColor}"
@@ -193,7 +202,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="3" Grid.Column="1" Text="{Binding Event11Text}"
+        <Button Grid.Row="4" Grid.Column="1" Text="{Binding Event11Text}"
                     AutomationId="{Binding Event11AutomationId}"
                     TextColor="{Binding Event11TextColor}"
                     BackgroundColor="{Binding Event11BackgroundColor}"
@@ -202,7 +211,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="3" Grid.Column="2" Text="{Binding Event12Text}"
+        <Button Grid.Row="4" Grid.Column="2" Text="{Binding Event12Text}"
                     AutomationId="{Binding Event12AutomationId}"
                     TextColor="{Binding Event12TextColor}"
                     BackgroundColor="{Binding Event12BackgroundColor}"
@@ -211,7 +220,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="3" Grid.Column="3" Text="{Binding Event13Text}"
+        <Button Grid.Row="4" Grid.Column="3" Text="{Binding Event13Text}"
                     AutomationId="{Binding Event13AutomationId}"
                     TextColor="{Binding Event13TextColor}"
                     BackgroundColor="{Binding Event13BackgroundColor}"
@@ -220,7 +229,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="3" Grid.Column="4" Text="{Binding Event14Text}"
+        <Button Grid.Row="4" Grid.Column="4" Text="{Binding Event14Text}"
                     AutomationId="{Binding Event14AutomationId}"
                     TextColor="{Binding Event14TextColor}"
                     BackgroundColor="{Binding Event14BackgroundColor}"
@@ -229,7 +238,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="3" Grid.Column="5" Text="{Binding Event15Text}"
+        <Button Grid.Row="4" Grid.Column="5" Text="{Binding Event15Text}"
                     AutomationId="{Binding Event15AutomationId}"
                     TextColor="{Binding Event15TextColor}"
                     BackgroundColor="{Binding Event15BackgroundColor}"
@@ -238,7 +247,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="3" Grid.Column="6" Text="{Binding Event16Text}"
+        <Button Grid.Row="4" Grid.Column="6" Text="{Binding Event16Text}"
                     AutomationId="{Binding Event16AutomationId}"
                     TextColor="{Binding Event16TextColor}"
                     BackgroundColor="{Binding Event16BackgroundColor}"
@@ -247,7 +256,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="4" Text="{Binding Event20Text}"
+        <Button Grid.Row="5" Text="{Binding Event20Text}"
                     AutomationId="{Binding Event20AutomationId}"
                     TextColor="{Binding Event20TextColor}"
                     BackgroundColor="{Binding Event20BackgroundColor}"
@@ -256,7 +265,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="4" Grid.Column="1" Text="{Binding Event21Text}"
+        <Button Grid.Row="5" Grid.Column="1" Text="{Binding Event21Text}"
                     AutomationId="{Binding Event21AutomationId}"
                     TextColor="{Binding Event21TextColor}"
                     BackgroundColor="{Binding Event21BackgroundColor}"
@@ -265,7 +274,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="4" Grid.Column="2" Text="{Binding Event22Text}"
+        <Button Grid.Row="5" Grid.Column="2" Text="{Binding Event22Text}"
                     AutomationId="{Binding Event22AutomationId}"
                     TextColor="{Binding Event22TextColor}"
                     BackgroundColor="{Binding Event22BackgroundColor}"
@@ -274,7 +283,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="4" Grid.Column="3" Text="{Binding Event23Text}"
+        <Button Grid.Row="5" Grid.Column="3" Text="{Binding Event23Text}"
                     AutomationId="{Binding Event23AutomationId}"
                     TextColor="{Binding Event23TextColor}"
                     BackgroundColor="{Binding Event23BackgroundColor}"
@@ -283,7 +292,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="4" Grid.Column="4" Text="{Binding Event24Text}"
+        <Button Grid.Row="5" Grid.Column="4" Text="{Binding Event24Text}"
                     AutomationId="{Binding Event24AutomationId}"
                     TextColor="{Binding Event24TextColor}"
                     BackgroundColor="{Binding Event24BackgroundColor}"
@@ -292,7 +301,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="4" Grid.Column="5" Text="{Binding Event25Text}"
+        <Button Grid.Row="5" Grid.Column="5" Text="{Binding Event25Text}"
                     AutomationId="{Binding Event25AutomationId}"
                     TextColor="{Binding Event25TextColor}"
                     BackgroundColor="{Binding Event25BackgroundColor}"
@@ -301,7 +310,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="4" Grid.Column="6" Text="{Binding Event26Text}"
+        <Button Grid.Row="5" Grid.Column="6" Text="{Binding Event26Text}"
                     AutomationId="{Binding Event26AutomationId}"
                     TextColor="{Binding Event26TextColor}"
                     BackgroundColor="{Binding Event26BackgroundColor}"
@@ -310,7 +319,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="5" Text="{Binding Event30Text}"
+        <Button Grid.Row="6" Text="{Binding Event30Text}"
                     AutomationId="{Binding Event30AutomationId}"
                     TextColor="{Binding Event30TextColor}"
                     BackgroundColor="{Binding Event30BackgroundColor}"
@@ -319,7 +328,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="5" Grid.Column="1" Text="{Binding Event31Text}"
+        <Button Grid.Row="6" Grid.Column="1" Text="{Binding Event31Text}"
                     AutomationId="{Binding Event31AutomationId}"
                     TextColor="{Binding Event31TextColor}"
                     BackgroundColor="{Binding Event31BackgroundColor}"
@@ -328,7 +337,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="5" Grid.Column="2" Text="{Binding Event32Text}"
+        <Button Grid.Row="6" Grid.Column="2" Text="{Binding Event32Text}"
                     AutomationId="{Binding Event32AutomationId}"
                     TextColor="{Binding Event32TextColor}"
                     BackgroundColor="{Binding Event32BackgroundColor}"
@@ -337,7 +346,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="5" Grid.Column="3" Text="{Binding Event33Text}"
+        <Button Grid.Row="6" Grid.Column="3" Text="{Binding Event33Text}"
                     AutomationId="{Binding Event33AutomationId}"
                     TextColor="{Binding Event33TextColor}"
                     BackgroundColor="{Binding Event33BackgroundColor}"
@@ -346,7 +355,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="5" Grid.Column="4" Text="{Binding Event34Text}"
+        <Button Grid.Row="6" Grid.Column="4" Text="{Binding Event34Text}"
                     AutomationId="{Binding Event34AutomationId}"
                     TextColor="{Binding Event34TextColor}"
                     BackgroundColor="{Binding Event34BackgroundColor}"
@@ -355,7 +364,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="5" Grid.Column="5" Text="{Binding Event35Text}"
+        <Button Grid.Row="6" Grid.Column="5" Text="{Binding Event35Text}"
                     AutomationId="{Binding Event35AutomationId}"
                     TextColor="{Binding Event35TextColor}"
                     BackgroundColor="{Binding Event35BackgroundColor}"
@@ -364,7 +373,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="5" Grid.Column="6" Text="{Binding Event36Text}"
+        <Button Grid.Row="6" Grid.Column="6" Text="{Binding Event36Text}"
                     AutomationId="{Binding Event36AutomationId}"
                     TextColor="{Binding Event36TextColor}"
                     BackgroundColor="{Binding Event36BackgroundColor}"
@@ -373,7 +382,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="6" Text="{Binding Event40Text}"
+        <Button Grid.Row="7" Text="{Binding Event40Text}"
                     AutomationId="{Binding Event40AutomationId}"
                     TextColor="{Binding Event40TextColor}"
                     BackgroundColor="{Binding Event40BackgroundColor}"
@@ -382,7 +391,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="6" Grid.Column="1" Text="{Binding Event41Text}"
+        <Button Grid.Row="7" Grid.Column="1" Text="{Binding Event41Text}"
                     AutomationId="{Binding Event41AutomationId}"
                     TextColor="{Binding Event41TextColor}"
                     BackgroundColor="{Binding Event41BackgroundColor}"
@@ -391,7 +400,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="6" Grid.Column="2" Text="{Binding Event42Text}"
+        <Button Grid.Row="7" Grid.Column="2" Text="{Binding Event42Text}"
                     AutomationId="{Binding Event42AutomationId}"
                     TextColor="{Binding Event42TextColor}"
                     BackgroundColor="{Binding Event42BackgroundColor}"
@@ -400,7 +409,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="6" Grid.Column="3" Text="{Binding Event43Text}"
+        <Button Grid.Row="7" Grid.Column="3" Text="{Binding Event43Text}"
                     AutomationId="{Binding Event43AutomationId}"
                     TextColor="{Binding Event43TextColor}"
                     BackgroundColor="{Binding Event43BackgroundColor}"
@@ -409,7 +418,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="6" Grid.Column="4" Text="{Binding Event44Text}"
+        <Button Grid.Row="7" Grid.Column="4" Text="{Binding Event44Text}"
                     AutomationId="{Binding Event44AutomationId}"
                     TextColor="{Binding Event44TextColor}"
                     BackgroundColor="{Binding Event44BackgroundColor}"
@@ -418,7 +427,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="6" Grid.Column="5" Text="{Binding Event45Text}"
+        <Button Grid.Row="7" Grid.Column="5" Text="{Binding Event45Text}"
                     AutomationId="{Binding Event45AutomationId}"
                     TextColor="{Binding Event45TextColor}"
                     BackgroundColor="{Binding Event45BackgroundColor}"
@@ -427,7 +436,7 @@
                     FontSize="18"
                     Clicked="ButtonSetDate_Clicked"
                     />
-        <Button Grid.Row="6" Grid.Column="6" Text="{Binding Event46Text}"
+        <Button Grid.Row="7" Grid.Column="6" Text="{Binding Event46Text}"
                     AutomationId="{Binding Event46AutomationId}"
                     TextColor="{Binding Event46TextColor}"
                     BackgroundColor="{Binding Event46BackgroundColor}"

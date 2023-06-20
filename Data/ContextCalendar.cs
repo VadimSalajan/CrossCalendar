@@ -65,7 +65,7 @@ namespace CrossCalendar.Data
             set { SetProperty(ref saturday, value); }
         }
 
-        public string title = "Calendar";
+        public string title = "";
 
         public string Title
         {

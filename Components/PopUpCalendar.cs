@@ -80,29 +80,11 @@ namespace CrossCalendar.Components
 
         public async Task ShowCalendar(ContentPage pageContext)
         {
-            screen.Scale = 0;
             await pageContext.Navigation.PushModalAsync(this);
-            screen.Scale = 0.3;
-            await Task.Delay(20);
-            screen.Scale = 0.5;
-            await Task.Delay(40);
-            screen.Scale = 0.6;
-            await Task.Delay(60);
-            screen.Scale = 0.9;
-            await Task.Delay(80);
         }
 
         public async Task CloseCalendar()
         {
-            screen.Scale = 0.9;
-            await Task.Delay(80);
-            screen.Scale = 0.6;
-            await Task.Delay(60);
-            screen.Scale = 0.5;
-            await Task.Delay(40);
-            screen.Scale = 0.3;
-            await Task.Delay(20);
-            screen.Scale = 0;
             await Navigation.PopModalAsync();
         }
 
